@@ -1,6 +1,6 @@
 import LazyLoad from "react-lazyload";
 import * as Styled from "./Card.styles";
-import { CardProps } from "./Card.types";
+import type { CardProps } from "./Card.types";
 
 const Card: React.FC<CardProps> = ({ offer }) => {
   const { headlines, carGroupInfo, prices } = offer;

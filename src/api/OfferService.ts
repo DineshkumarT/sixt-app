@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Offer } from "../model/Offer";
+import type { Offer } from "../model/Offer";
 import { restEndpoints } from "./RestEndpoints";
 
 export class OfferService {

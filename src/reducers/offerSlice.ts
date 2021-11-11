@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { offerService } from "../api";
 import { AppThunk } from "../app/store";
-import { Offer } from "../model/Offer";
+import type { Offer } from "../model/Offer";
 
 type Status = "idle" | "loading" | "resolved" | "failed";
 
