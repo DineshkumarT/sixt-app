@@ -1,8 +1,10 @@
 This project was bootstrapped with [Create React App]
 
-## Demo link
+## Demo
 
-In the project directory, you can run:
+Run npm install and then npm start.
+
+Tried to deploy using netlify, which didn't work because of https to http call.
 
 ### External libs
 

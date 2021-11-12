@@ -1,3 +1,3 @@
 export const restEndpoints = {
-  offers: "https://cdn.sixt.io/codingtask/offers.json",
+  offers: "http://cdn.sixt.io/codingtask/offers.json",
 };
